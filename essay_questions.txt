@@ -1,0 +1,16 @@
+Soal:
+
+1. Selain Python dan R, cari tahu mengapa Data Scientist juga terbantu dengan adanya bash scripting. 
+
+2. Mengapa banyak pihak yang berkata bahwa SQL bukan programming language? Apakah perdebatan ini merupakan hal yang penting?
+
+
+Penjelasan:
+
+1. Untuk MEMBUAT DATA PIPELINES, COPY AND PASTE MANY FILES AT ONCE, MENYAMBUNGKAN KE API pada mesin yang berjalan di sistem berdasarkan linux/unix. Kebanyakan mesin virtual dalam cloud (GCP, AWS, dll) berjalan dalam sistem linux. 
+
+Sumber: https://analyticsindiamag.com/top-commands-in-shell-scripting-every-data-scientist-must-know/
+
+2. Karena SQL hanya bisa berkomunikasi dengan data base. Dalam benak programmer, programming language seharusnya 'bisa' membuka window, memanggil HTTP request, bereaksi / memberikan feedback terhadap pencetan kursor di layar, menampilkan gambar dan video, dll. SQL adalah bahasa yang specialized dan tidak 'general' usecasenya. Pengkategorian SQL sbg programming language atau bukan masih merupakan perdebatan, namun sebaiknya kita tidak berfokus ke arah sana, karena diskusi ini tidak membuahkan hasil yang konstruktif. 
+
+Sumber: https://www.quora.com/Why-exactly-is-SQL-not-a-programming-language

@@ -1,0 +1,50 @@
+---
+title: "Introduction to R Markdown"
+author: "Grady"
+date: "11/8/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Ini Judul. Pakai tanda \# untuk nulis judul ya
+
+Tulisan. Bebas mau nulis apa aja.
+
+```{r}
+### insert your code here ###
+```
+
+#### Section 1: Beda Indexing di R dan di Python
+
+```{r}
+array = c(1,2,3,4,5,6)
+array
+```
+
+```{r}
+array[0]
+```
+
+```{r}
+array[1]
+```
+
+Index pertama di Python = 0, index pertama di R itu 1. Pusing sih, usahain jangan kebalik ya!
+
+#### Section 2: How to Write a Function
+
+```{r}
+sisi_miring <- function(sisi_lurus_1, sisi_lurus_2){
+  panjang_sisi_miring = sqrt(sisi_lurus_1^2 + sisi_lurus_2^2)
+
+  return(panjang_sisi_miring)
+}
+```
+
+```{r}
+c = sisi_miring(3,4)
+c
+```
